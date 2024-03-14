@@ -26,6 +26,7 @@
     height: 1000px;
     background-image: url("../image/11.png");
     background-size: cover;
+    transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 .header {
@@ -151,12 +152,12 @@
     top: 70px;
     bottom: 644px;
 }
+
 .main-text-2 {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
-    letter-spacing: 0%;
     text-align: left;
     position: absolute;
     width: 952px;
@@ -202,7 +203,7 @@
     top: 353px;
     bottom: 0px;
 
- }
+}
 
 .border {
     position: absolute;
@@ -223,4 +224,574 @@
     top: 1917px;
     bottom: -1847px;
     background: black;
+}
+
+.game {
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    text-align: left;
+    color: #FFFFFF;
+    position: absolute;
+    width: 569px;
+    height: 63px;
+    left: 484px;
+    right: 867px;
+    top: 70px;
+    bottom: 681px;
+}
+
+.game-text {
+    position: absolute;
+    width: 952px;
+    height: 91px;
+    left: 320px;
+    right: 648px;
+    top: 172px;
+    bottom: 551px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.Vector {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 320px;
+    right: 1468px;
+    top: 15px;
+    bottom: 667px;
+}
+
+.Vector-img {
+    position: absolute;
+    width: 132px;
+    height: 132px;
+    left: 320px;
+    top: 15px;
+    right: 1468px;
+    bottom: 667px;
+    box-sizing: border-box;
+    border: 4px solid rgb(248, 242, 0);
+}
+
+.Vector-text {
+    position: absolute;
+    width: 77px;
+    height: 31px;
+    left: 348px;
+    right: 1495.63px;
+    top: 65px;
+    bottom: 694.63px;
+    transform: rotate(-45.00deg);
+    color: #F8F200;
+    font-family: Archangelsk;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+}
+
+.xbox {
+    position: absolute;
+    width: 788px;
+    height: 456px;
+    left: 812px;
+    right: 320px;
+    top: 288px;
+    bottom: 70px;
+}
+
+.form-screenshot {
+    position: absolute;
+    margin-top: 60px;
+    width: 460px;
+    height: 383px;
+    top: 361px;
+    botton: 70px;
+    left: 320px;
+    right: 1140px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid gray;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+}
+
+button[type="submit"] {
+    width: 192px; /* Задаем фиксированную ширину */
+    height: 59px; /* Задаем фиксированную высоту */
+    background-color: #F8F200; /* Цвет фона */
+    color: black; /* Цвет текста */
+    padding: 15px 50px; /* Отступы внутри кнопки */
+    margin: 8px 0; /* Внешние отступы */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Курсор в виде указателя */
+    font-family: Roboto; /* Семейство шрифтов */
+    font-size: 18px; /* Размер шрифта */
+    font-weight: 700; /* Жирность шрифта */
+    line-height: 21px; /* Высота строки */
+    text-align: center; /* Выравнивание текста по центру */
+    display: inline-flex; /* Используем flex для выравнивания содержимого */
+    justify-content: center; /* Выравнивание содержимого по центру по горизонтали */
+    align-items: center; /* Выравнивание содержимого по центру по вертикали */
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.custom-file-upload {
+    border-bottom: 1px solid gray; /* Подчеркивание текста */
+    color: gray;
+    cursor: pointer; /* Изменение курсора для указания на возможность клика */
+    text-decoration: none; /* Убираем стандартное подчеркивание гиперссылки, если оно есть */
+    padding: 2px; /* Небольшой отступ вокруг текста для улучшения внешнего вида */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Центрирует содержимое по горизонтали */
+}
+
+.custom-file-upload {
+    border-bottom: 1px solid gray; /* Подчеркивание текста */
+    cursor: pointer;
+    text-decoration: none;
+    padding: 2px; /* Небольшой отступ вокруг текста */
+    display: inline; /* Обеспечивает, что подчеркивание будет только под текстом */
+}
+
+.file-types {
+    color: #777777;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center; /* Центрирует текст форматов файлов */
+}
+
+.agreement {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    background-color: black; /* Черный фон для всей строки согласия */
+    color: white; /* Белый цвет текста */
+}
+
+.custom-checkbox {
+    font-family: 'Roboto', sans-serif; /* Применяем локально доступный шрифт Roboto */
+    color: white;
+    align-items: center;
+    display: flex;
+}
+
+/* Скрываем реальный чекбокс */
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+    margin-right: 10px;
+}
+
+/* Стилизуем кастомный чекбокс */
+.custom-checkbox .checkmark {
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: black; /* Фон кастомного чекбокса */
+    border: 1px solid #ddd; /* Граница кастомного чекбокса */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* Когда чекбокс отмечен, добавляем галочку */
+.custom-checkbox input[type="checkbox"]:checked + .checkmark:after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid yellow; /* Цвет галочки */
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.border2 {
+    position: absolute;
+    width: 1920px;
+    height: 70px;
+    left: 0;
+    right: 0;
+    top: 2731px;
+    bottom: 676px;
+}
+
+.HP {
+    position: absolute;
+    width: 1920px;
+    height: 814px;
+    left: 0;
+    right: 0;
+    top: 2801px;
+    bottom: -2731px;
+    background: #F8F200;
+}
+
+
+.monitor {
+    position: absolute;
+    width: 624px;
+    height: 430px;
+    left: 320px;
+    right: 976px;
+    top: 70px;
+    bottom: -176px;
+}
+
+.logos {
+    position: absolute;
+    width: 540px;
+    height: 80px;
+    left: 362px;
+    right: 1018px;
+    top: 526px;
+    bottom: 70px;
+}
+
+.hp-main {
+    width: 624px;
+    height: 526px;
+    left: 976px;
+    right: 320px;
+    top: 70px;
+    bottom: 80px;
+}
+
+.hp-top {
+    position: absolute;
+    width: 560px;
+    height: 126px;
+    left: 976px;
+    right: -912px;
+    top: 70px;
+    bottom: 480px;
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    text-align: left;
+}
+
+.hp-inside {
+    position: absolute;
+    width: 624px;
+    height: 125px;
+    left: 976px;
+    right: -976px;
+    top: 221px;
+    bottom: 330px;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+}
+
+.hp-group-text {
+    display: table;
+    position: relative;
+    justify-content: center;
+    width: 390px;
+    height: 200px;
+    left: 976px;
+    right: -742px;
+    top: 371px;
+    bottom: 179px;
+}
+.hp-group-text >div {
+    display: flex; /* Использование Flexbox для контейнера */
+    align-items: center; /* Вертикальное выравнивание содержимого по центру */
+    gap: 10px; /* Расстояние между изображением и текстом */
+}
+
+.hp-group-text img {
+    width: auto; /* Автоматическая ширина для сохранения пропорций */
+    height: 25px; /* Примерная высота изображения */
+}
+
+.hp-group-text text, .group-text {
+    font-size: 16px; /* Размер шрифта текста */
+    /* Другие стили текста, если нужно */
+}
+
+.group-text {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+.hp-group-text span:first-letter {
+    margin-left: 10px;
+}
+
+.button-hp {
+    position: absolute; /* Абсолютное позиционирование относительно .parent-block */
+    bottom: 0; /* Прижимаем кнопку к нижней границе родительского блока */
+    left: 0; /* Вы можете настроить это значение, чтобы сместить кнопку влево, если нужно */
+    width: 194px;
+    height: 59px;
+    display: flex;
+    justify-content: center; /* Центрирование текста и/или иконок внутри по горизонтали */
+    align-items: center; /* Центрирование текста и/или иконок внутри по вертикали */
+    padding: 15px 50px; /* Паддинги для содержимого кнопки */
+    color: rgb(248, 242, 0);
+    background: rgb(0, 0, 0);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center; /* Обеспечивает, что текст внутри кнопки выравнивается по центру */
+    cursor: pointer;
+}
+
+.discs {
+    position: absolute;
+    width: 944px;
+    height: 717px;
+    left: 0;
+    right: 976px;
+    top: 3477px;
+    bottom: -3477px;
+}
+
+.buy {
+    position: absolute;
+    width: 976px;
+    height: 717px;
+    left: 944px;
+    right: -944px;
+    top: 3477px;
+    bottom: -3477px;
+    background: rgb(0, 0, 0);
+}
+
+.buy-game {
+    position: absolute;
+    width: 624px;
+    height: 126px;
+    left: 32px;
+    right: 320px;
+    top: 70px;
+    bottom: 521px;
+    color: rgb(255, 255, 255);
+    font-family: "Archangelsk";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 63px;
+    text-align: left;
+}
+
+.buy-text {
+    color: rgb(255, 255, 255);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    position: absolute;
+    width: 466px;
+    height: 169px;
+    left: 32px;
+    right: 478px;
+    top: 250px;
+    bottom: 327px;
+}
+
+.buy-text > div {
+    display: flex; /* Использование Flexbox для контейнера */
+    align-items: center; /* Вертикальное выравнивание содержимого по центру */
+    gap: 10px; /* Расстояние между изображением и текстом */
+}
+
+.buy-text img {
+    width: auto; /* Автоматическая ширина для сохранения пропорций */
+    height: 25px; /* Примерная высота изображения */
+}
+
+.buy-text text, .buy-text {
+    font-size: 16px; /* Размер шрифта текста */
+    /* Другие стили текста, если нужно */
+}
+
+.blue {
+    color: rgb(82, 190, 220);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    position: absolute;
+    width: 224px;
+    height: 28px;
+    left: 32px;
+    right: 720px;
+    top: 221px;
+    bottom: 468px;
+}
+
+.blue2 {
+    position: absolute;
+    width: 255px;
+    height: 28.15px;
+    left: 32px;
+    right: 689px;
+    top: 460px;
+    bottom: 228.85px;
+    color: rgb(82, 190, 220);
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+}
+
+.platform {
+    position: absolute;
+    width: 319px;
+    height: 133.27px;
+    left: 32px;
+    right: 625px;
+    top: 450px;
+    bottom: 70.73px;
+    display: grid;
+    margin-top: 60px;
+    gap: 30px;
+    justify-content: left;
+    grid-template-columns: repeat(2, 90px);
+}
+
+.platform-button {
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none; /* Убираем границу кнопки */
+    padding: 0; /* Убираем внутренние отступы */
+    background: none; /* Убираем фон кнопки */
+    cursor: pointer;
+}
+
+.platform-button img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    max-height: 100%; /* Максимальная высота изображения */
+    width: auto; /* Автоматическая ширина для сохранения пропорций */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+.platform-button:hover, .button-black:focus {
+    background-color: rgb(82, 190, 220); /* Белый фон при наведении и фокусе */
+}
+
+.platform-button:active {
+    background-color: rgb(82, 190, 220); /* Желтый фон при нажатии */
+    border: 2px solid #000; /* Оставляем черную границу для консистентности */
+}
+
+.footer {
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 4194px;
+    bottom: -4154px;
+    background: rgb(255, 255, 255);
+}
+
+.logos-end {
+    position: absolute;
+    display: grid;
+    left: 320px;
+    margin-top: 15px;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 400px);
+}
+
+.down {
+    position: absolute;
+    width: 1920px;
+    height: 40px;
+    left: 0;
+    right: 0;
+    top: 4294px;
+    bottom: -4194px;
+    background: rgb(0, 0, 0);
+}
+
+.down-text {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgb(255, 255, 255);
+    left: 833px;
+    right: 834px;
+    top: 13px;
+    bottom: 13px;
+    position: absolute;
+    width: 253px;
+    height: 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.license-box {
+    position: absolute;
+    width: 250px;
+    height: 21px;
+    display: grid;
+    right: 320px;
+    margin-top: 45px;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(2, 250px);
+}
+.license-link {
+    background: none; /* Убираем фон */
+    border: none; /* Убираем границу */
+    color: black; /* Цвет текста, можно адаптировать под ваш дизайн */
+    text-decoration: underline; /* Подчёркивание текста */
+    cursor: pointer; /* Курсор в виде руки для указания на интерактивность */
+    padding: 0; /* Убираем отступы */
+    margin: 0; /* Убираем внешние отступы */
+    font-family: "Roboto"; /* Наследуем шрифт от контейнера */
+    font-size: inherit; /* Наследуем размер шрифта от контейнера */
 }
